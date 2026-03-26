@@ -59,12 +59,12 @@ Open `src/data/content.ts`. Find and update:
 
 ```typescript
 export const SITE_CONFIG = {
-  herName:         "Kittu",           // ← Her name / nickname
-  yourName:        "Arjun",           // ← Your name
+  herName:         "anushka",           // ← Her name / nickname
+  yourName:        "virat",           // ← Your name
   birthdayDate:    "1999-03-17",      // ← Her birthday (YYYY-MM-DD format)
   anniversaryDate: "2022-06-14",      // ← Your anniversary (YYYY-MM-DD)
   firstMetDate:    "2021-09-03",      // ← When you first met (YYYY-MM-DD)
-  siteTitle:       "Kittu — A Love Story",
+  siteTitle:       "virushka — A Love Story",
   heroTagline:     "Every frame of you is my favourite scene.",
   siteDescription: "A birthday surprise made with love.",
 }
@@ -201,7 +201,7 @@ The letter is shown on the main site. It reveals paragraph by paragraph as she s
 
 ```typescript
 export const LOVE_LETTER = {
-  salutation:  "My dearest Kittu,",   // ← Opening line
+  salutation:  "My dearest anushka,",   // ← Opening line
   paragraphs: [
     "First paragraph — how did she make you feel seen?",
     "Second paragraph — what does she mean to your daily life?",
@@ -269,8 +269,8 @@ export const CREDITS = {
   title: "A Love Story",
   year:  "2021 — ∞",
   roles: [
-    { role: "The Love of My Life",   name: "Kittu"             },
-    { role: "The Luckiest Person",   name: "Your Name"         },
+    { role: "The Love of My Life",   name: "anushka"             },
+    { role: "The Luckiest Person",   name: "virat"         },
     { role: "Best Supporting Role",  name: "Her Best Friend"   },  // ← Real name
     { role: "Comedy Relief",         name: "Another Friend"    },  // ← Real name
     { role: "Executive Producer",    name: "The Universe"      },
