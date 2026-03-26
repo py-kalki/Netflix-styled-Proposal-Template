@@ -110,15 +110,7 @@ cd netflix-birthday-site
 npm install
 ```
 
-### 3. Set up environment variables
-
-Create a `.env.local` file in the project root:
-
-```env
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-```
-
-### 4. Run locally
+### 3. Run locally
 
 ```bash
 npm run dev
